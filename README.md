@@ -1,2 +1,3 @@
-# wepp-apps-presentation
-Web Apps Presentation for university of Sussex 
+# Web Apps
+
+Web Apps Presentation for the University of Sussex.
