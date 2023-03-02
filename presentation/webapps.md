@@ -92,7 +92,17 @@ It's like some software that sits on top of the hardware (the Internet).
 
 # Http
 
-the Hypertext Transfrer Protocol (Http) allows people to access web applications.
+The Hypertext Transfer Protocol (Http) allows people to access web applications.
+
+- - -
+
+# Http Methods
+
++ GET
++ POST
++ PUT
++ PATCH
++ DELETE
 
 - - -
 
@@ -285,26 +295,153 @@ let hello: string = `hello ${name}`;
 
 # Frontend Frameworks
 
-![react](./images/react.png)
+![javascript frameworks](./images/javascript-frameworks.png)
 
 - - -
 
 # Component-based
 
 ```js
-<MyComponent />
+<About />
 ```
 
 - - -
 
-# Declarative
+# Node Package Manager
+
+![npm](./images/npm.png)
+
+- - -
+
+# Export
 
 ```js
-let count = 0;
-<button onClick={() => count++}>
-    {count}
-</button>
+export const fetchData = async (props) => {
+    const { url, options, cb } = props
+    
+    try {
+
+        const response = options ? await fetch(url, options) : await fetch(url)
+        const data = await response.json()
+        if (cb) cb(data)
+
+    } catch (error) {
+        console.error('fetchData', error)
+    }
+}
 ```
+
+# Import
+
+```js
+import { fetchData } from "./utils";
+...
+const fetchParams = {
+    url: process.env.REACT_APP_DBASE + ":" +  process.env.REACT_APP_DBASE_PORT + Remote.website,
+    cb: fetchCallback
+}
+fetchData(fetchParams)
+```
+
+- - -
+
+# Single-page Applications (SPA)
+
+![SPA](../images/spa.png)
+
+- - -
+
+# Web Servers
+
+![Web Servers](../images/web-server.webp)
+
+- - -
+
+# Backend (Server) Systems
+
+![backend systems](./images/serverFrameworks.png)
+
+- - -
+
+# Node.js
+
+![node-js](./images/nodejs.png)
+
+- - -
+
+# Express
+
+![express](./images/express.png)
+
+- - -
+
+# Content Management Systems
+
+![directus](./images/directus.png)
+
+- - -
+
+# Object Resource Managers
+
+![prisma](./images/prisma.svg)
+
+- - -
+
+# Databases
+
+![databases](./images/databases.svg)
+
+- - -
+
+# Server-side Rendering
+
+![ssr](./images/ssr.png)
+
+- - -
+
+# Data Exchange
+
+```json
+{
+  "squadName": "Super hero squad",
+  "homeTown": "Metro City",
+  "formed": 2016,
+  "secretBase": "Super tower",
+  "active": true,
+  "members": [
+    {
+      "name": "Molecule Man",
+      "age": 29,
+      "secretIdentity": "Dan Jukes",
+      "powers": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+    },
+    {
+      "name": "Madame Uppercut",
+      "age": 39,
+      "secretIdentity": "Jane Wilson",
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name": "Eternal Flame",
+      "age": 1000000,
+      "secretIdentity": "Unknown",
+      "powers": [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ]
+    }
+  ]
+}
+```
+
+
 
 
 
