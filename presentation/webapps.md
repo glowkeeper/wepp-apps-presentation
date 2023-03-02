@@ -1,24 +1,20 @@
-# My Experience of Web Apps
-
-Dr Steve Huckle
-
-s.huckle@susex.ac.uk
-
-March 2023
-
-- - -
+---
+title: "Web Apps (My Experience of Them)"
+author: Dr Steve Huckle
+date: March 2, 2023
+---
 
 # Lecture Overview
 
-+ The 101 of WebApps
-+ Some WebApps I've Built
++ Some web apps I've built
++ The technology underlying those apps
 + Q & A
 
 - - -
 
 # Goals
 
-At the end of this lecture, I hope that you will have a better understanding of the Web Applications space and be so excited, you'll want a career in Web Development!
+At the end of this lecture, I hope you'll have a better understanding of Web Applications. Maybe I can even persuade you to consider a career in Web Development!
 
 - - -
 
@@ -26,45 +22,80 @@ At the end of this lecture, I hope that you will have a better understanding of 
 
 Web Development is the best job in the world:
 
-1. Your platform of choice has nearly 5 billion daily active users!
-2. It's a platform that behaves like a super-intelligent brain:
+1. Your platform of choice has nearly 5 billion daily active users
+2. It's at the forefront of the information age
+3. It's a platform that behaves like a super-intelligent brain:
     1. It can cure diseases
     2. Eliminate poverty
     3. Advance science
 
 - - -
 
-# Wep Development (cont'd)
+# Web Development (cont'd)
 
-![Cat Memes](./images/catMemes.png)
-
-- - -
-
-# Web Development 101
-
-To take advantage of that super-intelligent brain, you're going to want to know about that brain.
+![](./images/catMemes.png)
 
 - - -
 
-# Web Development Topics
+# Minima
 
-+ Internet
-+ Internet protocols
-+ IP Addresses
-+ TCP
-+ Web Protocol
+[https://www.minima.global/](https://www.minima.global/)
+
+- - -
+
+# Incentivecash System
+
+![](./images/architecture.png)
+
+- - -
+
+# Incentivecash System (cont'd)
+
+![](./images/swimlane.png)
+
+- - -
+
+# My Site
+
+[https://glowkeeper.github.io/](https://glowkeeper.github.io/)
+
+- - -
+
+# Rectangles
+
+[https://glowkeeper.github.io/rectangle-react/](https://glowkeeper.github.io/rectangle-react/)
+
+- - -
+
+# Storymaker
+
+[https://glowkeeper.github.io/storymaker/](https://glowkeeper.github.io/storymaker/)
+
+- - -
+
+# Story Builders
+
+[http://www.story-builders.co.uk/](http://www.story-builders.co.uk/)
+
+- - -
+
+# Web Development
+
+To take advantage of that super-intelligent brain, you're going to want to know about the tech' that constitutes that brain
 
 - - -
 
 # Internet
 
-The Internet is a network of billions (trillions?) of machines connected together, fist establised in the early 1980s. You can think of it as the hardware underlying all the software built on top of it.
+The Internet is a network of billions (trillions?) of connected machines, first established in the early 1980s. You can think of it as the hardware underlying all the software built on top of it
 
 - - -
 
 # Protocol Suite
 
-![ip suite](./images/ipSuite.png)
+![](./images/ipSuite.png)
+
+- - -
 
 # Internet Protocol 
 
@@ -72,27 +103,29 @@ Network IP is used to identify machines on the Internet by assigning them a uniq
 
 168.172.25.1
 
+- - -
+
 # TCP
 
-![TCP](./images/TCP.webp)
+![](./images/TCP.webp)
 
 - - -
 
 # Packets
 
-Data is sent as a collection of small packets across the data link, and resequenced by the receiving device.
+Data is sent as a collection of small packets across the data link, and resequenced by the receiving device
 
 - - -
 
 # World Wide Web
 
-It's like some software that sits on top of the hardware (the Internet).
+It's like some software that sits on top of the hardware (the Internet)
 
 - - -
 
 # Http
 
-The Hypertext Transfer Protocol (Http) allows people to access web applications.
+The Hypertext Transfer Protocol (Http) allows people to access web applications
 
 - - -
 
@@ -131,13 +164,13 @@ www.google.com/gmail
 
 # Client Server
 
-![client<->server](./images/client-server.png)
+![](./images/client-server.png)
 
 - - -
 
 # Browser 
 
-Browsers allow us to access the web by rendering content from the URLs.
+Browsers allow us to access the web by rendering content from URLs
 
 - - -
 
@@ -145,9 +178,11 @@ Browsers allow us to access the web by rendering content from the URLs.
 
 The content rendered by a browser is represented by Hypertext Markup Language (HTML)
 
-# Dev Tools
+- - -
 
-![devtools](./images/devTools.png)
+# Developer Tools
+
+![](./images/devTools.png)
 
 - - -
 
@@ -183,9 +218,11 @@ The content rendered by a browser is represented by Hypertext Markup Language (H
 <a href="http://example.com">example.com</a>
 ```
 
+- - -
+
 # DOM
 
-![DOM](./images/dom.gif)
+![](./images/dom.png)
 
 - - -
 
@@ -205,16 +242,16 @@ p {
 
 (CSS is tricky - it takes time, practice and patience)
 
-![Box Model](./images/boxModel.png)
+![](./images/boxModel.png)
 
 - - -
 
 # Responsive Layouts
 
-CSS provides tools for making your web apps look good across the range of devices upon which they might be viewed.
+CSS provides tools for making your web apps look good across the range of devices upon which they might be viewed
 
 ```css
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 
     p {
         margin-bottom: 0.5rem;
@@ -249,7 +286,7 @@ Grids and flexboxes
 
 # Javascript
 
-Adds programmability and user interaction to the content.
+Adds programmability and user interaction to the content
 
 ```js
 <script>
@@ -262,7 +299,7 @@ Adds programmability and user interaction to the content.
 
 # Events
 
-![Events](./images/events.png)
+![](./images/events.png)
 
 - - -
 
@@ -279,13 +316,13 @@ button.onClick = () => {
 
 # ECMAScript
 
-Javascrpt is standardised across all major browsers.
+Javascript is standardised across all major browsers
 
 - - -
 
-# Typsecript 
+# Typescript 
 
-Javascript is dynamically typed. Typescript is a language that is a superset of Javascript because it includes javascript as well as added syntax for types.
+Javascript is dynamically typed. Typescript is a language that is a superset of Javascript that adds syntax for types
 
 ```typescript
 let hello: string = `hello ${name}`;
@@ -295,7 +332,7 @@ let hello: string = `hello ${name}`;
 
 # Frontend Frameworks
 
-![javascript frameworks](./images/javascript-frameworks.png)
+![](./images/javascript-frameworks.png)
 
 - - -
 
@@ -309,7 +346,7 @@ let hello: string = `hello ${name}`;
 
 # Node Package Manager
 
-![npm](./images/npm.png)
+![](./images/npm.png)
 
 - - -
 
@@ -331,6 +368,8 @@ export const fetchData = async (props) => {
 }
 ```
 
+- - -
+
 # Import
 
 ```js
@@ -347,59 +386,87 @@ fetchData(fetchParams)
 
 # Single-page Applications (SPA)
 
-![SPA](../images/spa.png)
+![](./images/spa.png)
 
 - - -
 
-# Web Servers
+# Bundlers
 
-![Web Servers](../images/web-server.webp)
-
-- - -
-
-# Backend (Server) Systems
-
-![backend systems](./images/serverFrameworks.png)
+![](./images/webpack.png)
 
 - - -
 
-# Node.js
+# Frontend Tooling
 
-![node-js](./images/nodejs.png)
-
-- - -
-
-# Express
-
-![express](./images/express.png)
+![](./images/vite-create.png)
 
 - - -
 
-# Content Management Systems
+# Static-site Generation
 
-![directus](./images/directus.png)
-
-- - -
-
-# Object Resource Managers
-
-![prisma](./images/prisma.svg)
-
-- - -
-
-# Databases
-
-![databases](./images/databases.svg)
+![](./images/ssg.png)
 
 - - -
 
 # Server-side Rendering
 
-![ssr](./images/ssr.png)
+![](./images/ssr.avif)
 
 - - -
 
-# Data Exchange
+# Servers
+
+![](./images/cloud-services.jpeg)
+
+# Web Servers
+
+![](./images/web-server.webp)
+
+- - -
+
+# Backend (Server) Systems
+
+![](./images/serverFrameworks.png)
+
+- - -
+
+# Node.js
+
+![](./images/node-js.png)
+
+- - -
+
+# Express
+
+![](./images/express.png)
+
+- - -
+
+# Content Management Systems
+
+![](./images/directus.png)
+
+- - -
+
+# REST API
+
+![](./images/rest-api.svg)
+
+- - -
+
+# Databases
+
+![](./images/databases.webp)
+
+- - -
+
+# Object Resource Managers
+
+![](./images/prisma.png)
+
+- - -
+
+# Data Exchange (JSON)
 
 ```json
 {
@@ -441,16 +508,37 @@ fetchData(fetchParams)
 }
 ```
 
+- - -
 
+# IDE
 
+![](./images/IntelliJ.png)
 
+- - -
 
+# Linters
 
+![](./images/eslint.png)
 
+- - -
 
+# Version Control
 
+![](./images/gitBranchingandMerging.png)
 
+- - -
 
+# Slides
+
+[https://github.com/glowkeeper/wepp-apps-presentation/blob/main/presentation/webapps.md](https://github.com/glowkeeper/wepp-apps-presentation/blob/main/presentation/webapps.md)
+
+- - -
+
+# Thank-you
+
+Dr Steve Huckle
+
+s.huckle@sussex.ac.uk
 
 
 
