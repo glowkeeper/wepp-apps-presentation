@@ -14,7 +14,9 @@ date: March 2, 2023
 
 # Goals
 
-At the end of this lecture, I hope you'll have a better understanding of Web Applications. Maybe I can even persuade you to consider a career in Web Development!
+At the end of this lecture, I hope you'll have a better understanding of Web Applications. 
+
+Maybe I can even persuade you to consider a career in Web Development!
 
 - - -
 
@@ -181,7 +183,7 @@ http://www.google.com/gmail
 
 # Browser 
 
-Browsers allow us to access the web by rendering content from URLs
+Browsers allow us to access the web by rendering content from URLs served by those servers
 
 - - -
 
@@ -542,6 +544,12 @@ fetchData(fetchParams)
 # Slides
 
 [https://github.com/glowkeeper/wepp-apps-presentation/blob/main/presentation/webapps.md](https://github.com/glowkeeper/wepp-apps-presentation/blob/main/presentation/webapps.md)
+
+- - -
+
+# Don't Panic!
+
+...there's always [stackoverflow](https://stackoverflow.com/)
 
 - - -
 
