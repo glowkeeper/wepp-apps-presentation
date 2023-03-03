@@ -65,11 +65,21 @@ Web Development is the best job in the world:
 
 [https://glowkeeper.github.io/rectangle-react/](https://glowkeeper.github.io/rectangle-react/)
 
+[https://github.com/glowkeeper/rectangle-react](https://github.com/glowkeeper/rectangle-react)
+
 - - -
 
 # Storymaker
 
 [https://glowkeeper.github.io/storymaker/](https://glowkeeper.github.io/storymaker/)
+
+[https://github.com/glowkeeper/storymaker](https://github.com/glowkeeper/storymaker)
+
+- - -
+
+# Web XR
+
+![](./images/designStudio.png)
 
 - - -
 
@@ -107,7 +117,7 @@ Network IP is used to identify machines on the Internet by assigning them a uniq
 
 # TCP
 
-![](./images/TCP.webp)
+![](./images/tcp.png)
 
 - - -
 
@@ -144,6 +154,7 @@ The Hypertext Transfer Protocol (Http) allows people to access web applications
 Every website has a unique domain name that maps to a specific IP Address via DNS:
 
 Name: www.google.com
+
 Address: 142.250.178.4
 
 - - -
@@ -158,7 +169,7 @@ Address: 142.250.178.4
 
 Http gives resources on the web a uniform resource locator (URL) - some unique address under each domain:
 
-www.google.com/gmail
+http://www.google.com/gmail
 
 - - -
 
@@ -398,7 +409,7 @@ fetchData(fetchParams)
 
 # Frontend Tooling
 
-![](./images/vite-create.png)
+![](./images/vite-create.webp)
 
 - - -
 
@@ -416,7 +427,7 @@ fetchData(fetchParams)
 
 # Servers
 
-![](./images/cloud-services.jpeg)
+![](./images/aws.png)
 
 # Web Servers
 
@@ -450,7 +461,7 @@ fetchData(fetchParams)
 
 # REST API
 
-![](./images/rest-api.svg)
+![](./images/rest-api.png)
 
 - - -
 
@@ -462,7 +473,7 @@ fetchData(fetchParams)
 
 # Object Resource Managers
 
-![](./images/prisma.png)
+![](./images/prisma.jpg)
 
 - - -
 
